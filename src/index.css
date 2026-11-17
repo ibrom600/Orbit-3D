@@ -674,6 +674,11 @@ svg {
   max-width: 640px;
   pointer-events: none;
 }
+@media (max-width:640px) {
+    .hero__content{
+      right: 0;
+    }
+}
 .hero__content .btn {
   pointer-events: auto;
 }
